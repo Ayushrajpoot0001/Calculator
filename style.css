@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #5365bf, #69d1b7,#d16eeb, #61c1cd);
+  /* color: #fff; */
+  /* background-color: rgb(10, 48, 48); */
+  /* background-color:#5365bf; */
+  font-family: "Roboto", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width: 100%;
+}
+
+.calculator {
+  background-color: #0a3f46;
+
+  width: 350px;
+  height: 500px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    cursor: pointer;
+   background: transparent;
+   border: none;
+}
+
+input ::placeholder{
+    color: #000;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background: radial-gradient(circle, rgba(177,216,212,1) 7%, rgba(238,174,202,1) 36%, rgba(148,187,233,1) 100%);
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.equal{
+  background-color: orange;
+  /* color: orange; */
+}
+
+
+.operator{
+font-size: 10px;
+}
+
